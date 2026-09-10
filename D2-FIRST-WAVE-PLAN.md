@@ -1,8 +1,7 @@
 # D2 — Gersa Village: First-Wave Capital Plan (RIGHT-SIZED)
 
 **Prepared by:** Aven (Chief of Staff) — 2026-08-19
-**Status:** DRAFT for CEO approval — **NOT committed to any deck, pitch, or external party.**
-**Requires CEO sign-off before:** the business plan Phase-3 line is updated, or any figure in this document is quoted to investors/grants.
+**Status:** **CEO SIGNED OFF 2026-09-10** — Wave-1 scope as written (§2), ask band **$1.00M–$1.46M** (§6 recommendation), sustainability gates G1–G6 as formal capital-release criteria (§3), Sprynter-service dependency **Option C — basic mechanic bay in Wave 1 + full workshop in Wave 2** (§7), business plan Phase-3 line change (§8.5 — already applied to GIV-business-plan.txt + `.claude/GIV business plan.txt`, 2026-08-19 CEO-directed revision), and funding-plan sign-off carried. **Still pending execution (not yet approved as spend):** local feasibility study (§8.6, est. $8K–$15K — over the $1,000 CEO threshold; I source candidates and cost them out on your GO, then return for the explicit yes). No capital committed; no offer sent; $5,000 reserve floor untouched.
 **Scope directive (CEO, 2026-08-19, incl. 23:40 update):** capsule-first housing (45–55 m², ~$10K/unit shell) · lean clinic (180–220 m² + referral MOU) · protein = **goats + fish + poultry (layers)** · site = Eastern or Volta Region.
 **Labeled assumption (CEO did not select):** **hybrid structural material** (concrete/steel primary frame; bamboo as structural-secondary, cladding, interiors, furniture, market, screening) — bamboo plantation planted in Wave 1 so it's in-crop by Wave 3. Flip this only if a local engineer verifies large-culm species availability + treatment supply in-region.
 
@@ -116,26 +115,26 @@ My recommendation: **present the higher, complete ask. A higher ask with a defen
 
 ---
 
-## 7. Critical dependency I need you to decide
+## 7. Critical dependency I need you to decide — **DECIDED: Option C (CEO sign-off 2026-09-10)**
 
 **Sprynter launches M12.** The village is a hard part of Sprynter's operating loop (bus servicing). The village's Wave-1 does not include the fleet workshop (deferred to keep the ask contained). Options:
 
 - **A) Contract an external fleet service** in-region for M12–M30 (estimated $80–150K over that window, recurring), **and** build the workshop in Wave 2 (M30+). Cleanest, cheapest for Phase 3, slightly worse for Sprynter unit economics for 18 months.
 - **B) Pull the workshop into Wave-1** at ~$40–60K, adding it to the ask (pushing the high end above $1.5M).
-- **C) Hybrid:** Wave-1 includes a **basic mechanic bay + tooling** (~$15–25K) at the site, with the full workshop in Wave 2.
+- **C) Hybrid:** Wave-1 includes a **basic mechanic bay + tooling** (~$15–25K) at the site, with the full workshop in Wave 2. ✓ **SELECTED**
 
-I recommend **C** — it keeps Sprynter's operating loop inside the ecosystem from M12 on, doesn't add material capital risk, and the full workshop can ride on Wave-2 revenue.
+C keeps Sprynter's operating loop inside the ecosystem from M12 on, doesn't add material capital risk, and the full workshop can ride on Wave-2 revenue. The bay sits inside the L9 ops-mobilization / L6 site-facilities envelope (funded from contingency + ops line, not a new ask line); confirm exact placement in the BOQ when the feasibility firm quotes L6/L9.
 
 ---
 
-## 8. What I need from the CEO (sign-off items)
+## 8. What I need from the CEO (sign-off items) — **RESOLVED 2026-09-10 (bulk approval)**
 
-1. **Approve the Wave-1 scope as written** (capsule, core, sewing lab, clinic, market, food, minimal AI, ops) OR name the line item(s) to cut.
-2. **Choose the ask band** — the clean $1.00M–$1.46M, or the trimmed $750K–$950K (AI room out, single-source water, smaller farm).
-3. **Approve the sustainability-gate mechanism (§3)** as the formal release criterion for each line item — this is the "100% solar/water in every decision" rule made operational.
-4. **Choose A/B/C for the Sprynter-service dependency (§7).**
-5. **Approve the business plan Phase-3 line change** (from $500K–$750K → your chosen band) — I'll draft the one-line edit for you to commit, not do it silently. Not doing it without your explicit yes.
-6. **Authorize a local feasibility study** (solar load calc + water yield test + soil/geotech screen, est. $8K–$15K) so we're not building on assumptions. This **exceeds the $1,000 CEO approval threshold** — I am not authorizing it; I'm asking. A Ghana-licensed firm (engineering + water) would run it; I source candidates and cost them out on your GO.
+1. **Approve the Wave-1 scope as written** (capsule, core, sewing lab, clinic, market, food, minimal AI, ops) OR name the line item(s) to cut. ✓ **Approved — scope as written.**
+2. **Choose the ask band** — the clean $1.00M–$1.46M, or the trimmed $750K–$950K (AI room out, single-source water, smaller farm). ✓ **Selected: clean $1.00M–$1.46M.** This is now the authoritative quoteable figure for investors/grants.
+3. **Approve the sustainability-gate mechanism (§3)** as the formal release criterion for each line item — this is the "100% solar/water in every decision" rule made operational. ✓ **Approved.**
+4. **Choose A/B/C for the Sprynter-service dependency (§7).** ✓ **Selected: C.**
+5. **Approve the business plan Phase-3 line change** (from $500K–$750K → chosen band) — done. ✓ Applied 2026-08-19 (CEO-directed revision note in both business-plan copies; line 94/227/260/272/325 all read $1.00M–$1.46M).
+6. **Authorize a local feasibility study** (solar load calc + water yield test + soil/geotech screen, est. $8K–$15K) so we're not building on assumptions. **⏳ PENDING — this is spend >$1,000 and requires an explicit yes from you.** Next step on your GO: I source 2–3 Ghana-licensed firms (engineering + water), cost them out, and return for your sign-off before any engagement.
 
 **Labeled assumptions (correct if wrong):**
 - A1: Hybrid bamboo as structural-secondary material (CEO did not select).

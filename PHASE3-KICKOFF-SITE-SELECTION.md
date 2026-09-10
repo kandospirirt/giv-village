@@ -13,7 +13,7 @@
 |------|-------|--------|
 | Phase | 3 (final of 3) | business plan §3.3 |
 | Timeline | **Months 18–36** | business plan §4 |
-| Capital need | **$500K–$750K** (plan table ≈ $630–$780K) | business plan §3.3 / §4 |
+| Capital need | **$1.0M–$1.46M** (Wave 1, CEO signed off 2026-09-10 — was $500K–$750K pre-D2) | business plan §3.3 / §4 + D2-FIRST-WAVE-PLAN.md (signed) |
 | Site | **TBD** — "mountains + waterfalls, Ghana" | business plan §3.3 |
 | Codebase / repo | **None** (only the marketing page in `giv-website`) | disk scan |
 | Funding position | **Downstream** of Pricewards→Sprynter; Phase 1 not yet funded (YC in progress) | memory + business plan |
@@ -27,7 +27,7 @@
 
 1. **Longest lead time, hardest to parallelize later.** Title, zoning, environmental, and water-licensing timelines in Ghana commonly run 6–18 months and gate everything else. Starting now buys that runway for free.
 2. **Option value, not commitment.** A shortlist + term-sheet *options* cost only diligence effort (and <$1K for surveys/agent fees if we later approve them). We can walk away at any point before signing.
-3. **Protects the funding narrative.** Investors/grants asked "have you secured a site?" want "shortlisted + due-diligence in flight," not "site TBD." It de-risks the $500–750K ask.
+3. **Protects the funding narrative.** Investors/grants asked "have you secured a site?" want "shortlisted + due-diligence in flight," not "site TBD." It de-risks the $1.0–$1.46M Wave-1 ask (CEO-signed, 2026-09-10).
 4. **Feeds two other tracks simultaneously** — the buildout brief needs real site parameters (slope, water source, solar irradiance, access road) to be credible; funding decks need a concrete story.
 
 **What we explicitly will NOT do yet:** no purchase, no deposits, no construction contracts, no money above $1,000. All gated on CEO sign-off.
@@ -124,7 +124,7 @@ Sizing from the business plan. Each phase has a **sustainability gate** that mus
 
 ## 6. Decision Packet (for CEO sign-off)
 
-**Why it matters:** Land is the longest-lead, hardest-to-reverse input to the entire $500–750K, Month-30 break-even line. Starting diligence now costs little and protects the funding narrative for Village, Sprynter, and the Phase-1 raise.
+**Why it matters:** Land is the longest-lead, hardest-to-reverse input to the entire $1.0–$1.46M Wave-1, break-even line. Starting diligence now costs little and protects the funding narrative for Village, Sprynter, and the Phase-1 raise.
 
 **Impact of inaction:** By Month 12–18 the land pipeline is either already committed (by a competitor / at a worse price) or the 6–18 month tenure/EIA/water-licence lead time pushes Village past Month 34, breaking the Phase-3 revenue line. The "site TBD" answer also weakens the investor/grant story.
 
@@ -189,6 +189,7 @@ Sizing from the business plan. Each phase has a **sustainability gate** that mus
 
 ## Deliverable status log
 
-- **2026-08-19 — D2 (First-Wave Capital Plan): DRAFT delivered, pending CEO sign-off.** `D2-FIRST-WAVE-PLAN.md` — right-sized Wave 1 (capsule housing 28 × 45–55 m², 100% solar/water core, Pricewards sewing lab + equipment, lean clinic + referral MOU, market + cold store, food production: **goats + tilapia + 250–350 layers + 1 ha farm**, minimal AI room, ops). Math verified: **$1.00M–$1.46M ask** (low/high sums checked programmatically) vs. old plan line $500–750K — flagged as >10% variance per CLAUDE.md §8. Revenue band ~$74–164K/mo; net ~$29–90K/mo; break-even 18–30 months after first units. Sustainability gates G1–G6 defined as capital-release conditions. Business plan NOT touched — awaiting explicit CEO sign-off (D2 §8 items 1–6).
+- **2026-09-10 — D2 (First-Wave Capital Plan): CEO SIGNED OFF (bulk approval, "sign-off giv funding").** Resolutions: scope as written; ask band **$1.00M–$1.46M** (now authoritative/quoteable); sustainability gates G1–G6 = formal capital-release criteria; Sprynter dependency **Option C** (basic mechanic bay in Wave 1, full workshop Wave 2); business-plan Phase-3 line already at $1.00M–$1.46M in both copies. **Still open:** §8.6 local feasibility study ($8K–$15K) — >$1K, awaiting explicit CEO GO before I source/cost firms. See D2-FIRST-WAVE-PLAN.md header + §7 + §8 (all stamped).
+- **2026-08-19 — D2 (First-Wave Capital Plan): DRAFT delivered.** `D2-FIRST-WAVE-PLAN.md` — right-sized Wave 1 (capsule housing 28 × 45–55 m², 100% solar/water core, Pricewards sewing lab + equipment, lean clinic + referral MOU, market + cold store, food production: **goats + tilapia + 250–350 layers + 1 ha farm**, minimal AI room, ops). Math verified: **$1.00M–$1.46M ask** (low/high sums checked programmatically) vs. old plan line $500–750K — flagged as >10% variance per CLAUDE.md §8. Revenue band ~$74–164K/mo; net ~$29–90K/mo; break-even 18–30 months after first units. Sustainability gates G1–G6 defined as capital-release conditions. Business plan updated same cycle (2026-08-19 CEO-directed revision).
 - **2026-08-19 — D4 (website/investor page polish): DONE, verified.** `giv-website/src/app/projects/village/page.tsx` rewritten for investors + founding residents: honest location badge (Eastern & Volta, active selection), investor CTA → `/investors` + `/investor-deck`, resident CTA → `/contact`, timeline re-aligned to the M18–36 sustainability-gated phases, protein streams (goats/tilapia/eggs) named, waste-to-value re-framed as a design target rather than a baseline. `tsc --noEmit` clean; `next build` all 12 routes prerendered. Committed in `giv-website` (village page only — 3 pre-existing unrelated modified files left untouched/uncommitted).
 - **2026-08-19 — D1 (site selection, Eastern + Volta scope): IN PROGRESS.** `D1-SITE-SCORECARD-EASTERN-VOLTA.md` — scoring rubric, hard gates, candidate-area shortlist (Bawku + Dodowa removed as verified-wrong-region), draft option-to-purchase language (counsel-review, no payment). Next: field verification → 3–5 specific scored plots → top-1 with all 5 hard gates PASS. **No capital committed; no offer sent.**
