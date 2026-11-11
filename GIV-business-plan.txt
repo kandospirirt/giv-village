@@ -114,7 +114,7 @@ GPS live tracking	Buses stream GPS positions every 5s; riders see real-time bus 
 On-demand LUXURY	Luxury tier works Uber-style: rider requests pickup via GPS → nearest luxury vehicle matched → 15-second driver acceptance window → fare locked
 Guaranteed seating	Every passenger has a reserved seat — no standing, no squeezing
 Digital payments	Mobile money, card, cash — all accepted
-Price per ride	Tier-based pricing (STANDARD 1.0x / LUXURY 1.8x) — see Vehicle Tiers table above
+Price per ride	Tier-based pricing (STANDARD 1.0x / COMFORT 1.15x / LUXURY 1.8x) — see Vehicle Tiers table above
 Bus ownership	Operators buy buses from Sprynter (partner with manufacturer) — full payment or installment
 Servicing	Vehicle servicing is included in the installment package
 Remote lock	If operator stops paying installments, Sprynter can lock the bus remotely
@@ -123,7 +123,8 @@ Vehicle Tiers
 Sprynter offers two vehicle classes with differentiated fare pricing:
 
 Tier	Vehicle	Price Multiplier	Fare Formula Example (10 km trip)
-STANDARD	Toyota Voxy / Toyota Noah Hybrid	1.0x base fare	GHS 50 + (10 × GHS 2) = GHS 70
+STANDARD	Toyota Voxy / Noah Hybrid	1.0x base fare	GHS 50 + (10 × GHS 2) = GHS 70
+COMFORT	GAC M6 (8-seat)	1.15x comfort fare	GHS 70 × 1.15 = GHS 80.50
 LUXURY	Toyota Alphard Hybrid	1.8x premium	GHS 50 + (10 × GHS 2) × 1.8 = GHS 126
 
 Fare Formula: GHS 50 base + (GHS 2/km for first 10 km, then GHS 1/km beyond) × tier_multiplier
@@ -239,7 +240,7 @@ Team (part-time/contract)	$30,000	Months 1-6
 Legal & business registration	$10,000	Months 1-2
 Working capital reserve	$10,000	Ongoing
 TOTAL	$150,000	
-Revenue target: $10,000-$20,000/month by month 6 (100-200 garments/month × $50-$200 × 15-20% commission)
+Revenue target: $1,500-$3,000/month by month 6 (100-200 garments/month × ~$100 avg × 15% commission, conservative)
 
 Phase 2: Sprynter (Months 7-18)
 Capital needed: $840,000+ (funded by Pricewards revenue + additional raise)
@@ -345,12 +346,12 @@ Competition enters market	Market share pressure	Ecosystem moat — three connect
 9. FINANCIAL SUMMARY
 Revenue Projections
 Period	Pricewards	Sprynter	Gersa Village	Total Monthly
-Month 6	$15,000	$0	$0	$15,000
-Month 12	$30,000	$0 (free year)	$0	$30,000
-Month 18	$40,000	$5,000	$0	$45,000
-Month 24	$50,000	$15,000	$0	$65,000
-Month 30	$60,000	$25,000	$45,000 (half occupied, ramping)	$130,000
-Month 36	$75,000	$40,000	$80,000 (full, low end)	$195,000
+Month 6	$3,000	$0	$0	$3,000
+Month 12	$7,500	$0 (free year)	$0	$7,500
+Month 18	$11,250	$0 (free year)	$0	$11,250
+Month 24	$15,000	~$5,000 (free year ends)	$0	~$20,000
+Month 30	$16,500	$10,000 (routes scaling)	$30,000 (half occupied, ramping)	~$56,500
+Month 36	$18,750	$35,000 (fleet + routes)	$80,000 (full, low end)	~$133,750
 Profitability Path
 Milestone	When
 Pricewards break-even	Month 4-6
@@ -407,7 +408,7 @@ INVESTMENT SUMMARY
 Item	Detail
 Company	Gersa Internet Village LLC
 Sector	Fashion Tech, Mobility, Eco-Real Estate
-Stage	Pre-seed (software 50% built, partners identified)
+Stage	Pre-seed (software ~85% built, security-audited, partners identified)
 Raise Amount	$150,000 USD
 Instrument	Flexible (SAFE, convertible note, equity, grant — open to all)
 Use of Funds	Complete Pricewards app, onboard 28 designers, launch to market
@@ -535,14 +536,14 @@ Custom clothing segment	~$200M (15-20% of fashion market)	Estimate based on tail
 US custom clothing market	~$2B	Growing trend toward personalized fashion
 TAM	$2.2B (Ghana custom + US custom)	Conservative combined estimate
 SAM	$50M (Ghana digital custom + Ghana diaspora US)	Customers with smartphones + mobile money/bank cards
-SOM (Year 3 target)	$1.5M (3% of SAM)	15,000 orders/year × $100 avg × 15% commission
+SOM (Year 3 target)	$225K platform revenue/yr	15,000 orders/yr × $100 avg × 15% commission (on $1.5M GMV)
 Sprynter (Phase 2)
 Metric	Value	Source/Method
 Ghana public transport ridership	~5M daily commuters	Ghana Statistical Service estimates
 Trotro/minibus share	~70% of public transport	Industry estimates
 TAM	$500M+ annually (Ghana minibus fares)	3.5M riders × 15 GHS × 2 trips × 250 days
 SAM	$50M (target cities: Accra + Kumasi)	Major urban corridors
-SOM (Year 3 target)	$2M commission (28 buses × ~20 rides/day)	25% of 15 GHS × 28 buses × 20 rides × 365 days
+SOM (steady state, 28 buses, from Year 2)	~$5,000/month (~$60K/yr) commission	28 buses × 20 rides/day × 15 GHS × 25%; scales linearly with additional operators/routes
 Gersa Internet Village (Phase 3)
 Metric	Value
 Digital nomads globally	35M+ (MBO Partners, 2024)
@@ -552,8 +553,8 @@ SOM	28 residents × $2,000/month = $56,000/month at full occupancy
 TRACTION & VALIDATION
 What We Have Done
 Item	Status	Evidence
-Pricewards app	50% complete	Building with local LLMs (Claude Code, Hermes, Ollama, vLLM)
-Sprynter app	50% complete	Same development approach
+Pricewards app	~85% complete (security-audited Nov 2026: 11 critical + 8 high findings fixed, independently verified)	Building with local LLMs (Claude Code, Hermes, Ollama, vLLM)
+Sprynter app	All features coded (tiers, station routing, GPS, LUXURY on-demand) — staging deploy + E2E pending	Same development approach
 Pricewards designers	28 identified	Conversations held, ready to onboard once app launches
 Pricewards production partners	Identified	Partner network ready in Ghana
 Pricewards logistics partners	Identified	Ground logistics partners lined up
@@ -576,8 +577,8 @@ Average garment price	$50 - $200	Custom clothing market range
 Pricewards commission	15 - 20%	Per transaction
 Average commission per order	$10 - $40	15-20% of $50-$200
 Target orders/month (Month 6)	100 - 200	Conservative from 28 designers
-Monthly revenue (Month 6)	$1,000 - $8,000	100-200 orders × $10-$40 commission
-Monthly revenue (Month 12)	$15,000 - $30,000	Scaling to 500-1,000 orders/month
+Monthly revenue (Month 6)	$1,500 - $3,000	100-200 orders × ~$15 commission (15% × $100 conservative)
+Monthly revenue (Month 12)	~$7,500	500 orders/month × ~$15 commission
 CAC (Customer Acquisition Cost)	$5 - $15	Social media + referrals + word of mouth in Ghana
 LTV (Lifetime Value)	$60 - $200	Average customer orders 3-5 garments/year × 2 years
 Sprynter (After Year 1 Free Period)
@@ -617,11 +618,11 @@ FINANCIAL PROJECTIONS
 Revenue Projection (Conservative)
 Month	Pricewards	Sprynter	Gersa Village	Total Monthly	Cumulative
 Month 6	$3,000	—	—	$3,000	$3,000
-Month 12	$20,000	—	—	$20,000	~$80,000
-Month 18	$35,000	$2,000 (free period ending)	—	$37,000	~$260,000
-Month 24	$50,000	$10,000	—	$60,000	~$580,000
-Month 30	$60,000	$20,000	$30,000 (50% occupied)	$110,000	~$1,100,000
-Month 36	$75,000	$35,000	$64,000 (full)	$174,000	~$1,900,000
+Month 12	$7,500	— (free year)	—	$7,500	~$10,500
+Month 18	$11,250	— (free year)	—	$11,250	~$21,750
+Month 24	$15,000	~$5,000 (free year ends)	—	~$20,000	~$41,750
+Month 30	$16,500	$10,000 (routes scaling)	$30,000 (50% occupied)	~$56,500	~$98,250
+Month 36	$18,750	$35,000 (fleet + routes)	$80,000 (full)	~$133,750	~$232,000
 Profitability Path
 Milestone	Timeline	Driver
 Pricewards break-even	Month 6-8	Commission revenue covers operating costs
@@ -725,7 +726,7 @@ Three revenue streams from one investment — Pricewards (fashion), Sprynter (tr
 
 Lowest capital entry point — $150K launches Pricewards (pure software, no physical assets needed). Revenue from Pricewards funds Sprynter. Both fund the Village. Each phase de-risks the next.
 
-Founder building software at near-zero cost — Using local LLMs instead of expensive dev agencies. App is already 50% complete. The $150K goes to market execution, not outsourced development.
+Founder building software at near-zero cost — Using local LLMs instead of expensive dev agencies. App is already ~85% complete and security-audited (Nov 2026: 11 critical + 8 high-severity findings fixed, independently verified). The $150K goes to market execution, not outsourced development.
 
 Partners already lined up — 28 designers identified, production partners ready, logistics partners identified. Not starting from zero.
 
